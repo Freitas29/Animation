@@ -1,0 +1,26 @@
+.animation{
+    position: fixed;
+    width: 100%;   
+}
+
+.animation li{
+    display: block;
+    position: relative;
+    bottom: 0;
+    animation: up 2s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes up{
+    from{
+        opacity: 0;
+        transform: translateY(0)
+    }
+    50%{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: translateY(-900px)        
+    }
+}
