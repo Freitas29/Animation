@@ -5,7 +5,7 @@
 ### Import Animation to your file
 
 ```
-import Animation from 'you_path'
+import Animation from 'your_path'
 ```
 
 ### Attributes you can change
